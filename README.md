@@ -15,7 +15,8 @@ This project implements a Random Forest classifier to predict crocodile species 
 
 ## 📁 Dataset Description
 
-The project uses a comprehensive crocodile dataset (`crocodile_dataset.csv`) containing **1,000+ observations** with the following features:
+The project uses a comprehensive [crocodile dataset](https://www.kaggle.com/datasets/zadafiyabhrami/global-crocodile-species-dataset)
+ (`crocodile_dataset.csv`) containing **1,000+ observations** with the following features:
 
 ### Features
 - **Physical Characteristics:**
@@ -93,16 +94,13 @@ The Random Forest classifier is configured with:
 ### Key Features by Importance:
 1. **Observed Weight (kg)** - Most predictive feature
 2. **Observed Length (m)** - Strong physical indicator
-3. **Conservation Status** - Important ecological factor
-4. **Geographic Location** - Regional distribution patterns
+3. **Geographic Location** - Regional distribution patterns
 
 ## 📊 Visualizations
 
 The notebook includes comprehensive visualizations:
 
-- **Feature Importance Plot** - Bar chart showing model feature rankings
 - **Confusion Matrix** - Classification performance heatmap
-- **Data Distribution Analysis** - Species weight and size distributions
 - **Correlation Heatmaps** - Feature relationship analysis
 
 ## 🔬 Methodology
@@ -127,7 +125,6 @@ The notebook includes comprehensive visualizations:
 - Accuracy score
 - Classification report (Precision, Recall, F1-score)
 - Confusion matrix analysis
-- Feature importance rankings
 
 ## 📂 Project Structure
 
@@ -140,11 +137,10 @@ Gator-Classification/
 └── requirements.txt                # Python dependencies
 ```
 
-## 🤝 Contributing
+## Improvements
+As I contintinue to progress my knowledge in machine learning, I plan on circling back to this project and implementing different models to test and see if I can up my model's accuracy
 
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-### Areas for Contribution:
+### Areas for Improvement:
 - Additional machine learning algorithms (SVM, Neural Networks)
 - Hyperparameter optimization
 - Feature engineering improvements
@@ -162,16 +158,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- Wildlife conservation organizations for data collection efforts
-- Scientific community for crocodilian research
-- Open-source contributors to the libraries used in this project
 
-## 📚 References
-
-- Crocodilian species identification guides
-- Conservation status databases
-- Machine learning best practices for ecological data
-
----
-
-*This project is part of the GatorTalk initiative aimed at advancing crocodilian research through machine learning and data science.*
