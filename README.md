@@ -15,7 +15,8 @@ This project implements a Random Forest classifier to predict crocodile species 
 
 ## 📁 Dataset Description
 
-The project uses a comprehensive crocodile dataset["https://www.kaggle.com/datasets/zadafiyabhrami/global-crocodile-species-dataset"] (`crocodile_dataset.csv`) containing **1,000+ observations** with the following features:
+The project uses a comprehensive [crocodile dataset](https://www.kaggle.com/datasets/zadafiyabhrami/global-crocodile-species-dataset)
+ (`crocodile_dataset.csv`) containing **1,000+ observations** with the following features:
 
 ### Features
 - **Physical Characteristics:**
