@@ -140,11 +140,10 @@ Gator-Classification/
 └── requirements.txt                # Python dependencies
 ```
 
-## 🤝 Contributing
+## Improvements
+As I contintinue to progress my knowledge in machine learning, I plan on circling back to this project and implementing different models to test and see if I can up my model's accuracy
 
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-### Areas for Contribution:
+### Areas for Improvement:
 - Additional machine learning algorithms (SVM, Neural Networks)
 - Hyperparameter optimization
 - Feature engineering improvements
@@ -162,16 +161,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- Wildlife conservation organizations for data collection efforts
-- Scientific community for crocodilian research
-- Open-source contributors to the libraries used in this project
 
-## 📚 References
-
-- Crocodilian species identification guides
-- Conservation status databases
-- Machine learning best practices for ecological data
-
----
-
-*This project is part of the GatorTalk initiative aimed at advancing crocodilian research through machine learning and data science.*
