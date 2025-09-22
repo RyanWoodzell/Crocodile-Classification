@@ -94,16 +94,13 @@ The Random Forest classifier is configured with:
 ### Key Features by Importance:
 1. **Observed Weight (kg)** - Most predictive feature
 2. **Observed Length (m)** - Strong physical indicator
-3. **Conservation Status** - Important ecological factor
-4. **Geographic Location** - Regional distribution patterns
+3. **Geographic Location** - Regional distribution patterns
 
 ## 📊 Visualizations
 
 The notebook includes comprehensive visualizations:
 
-- **Feature Importance Plot** - Bar chart showing model feature rankings
 - **Confusion Matrix** - Classification performance heatmap
-- **Data Distribution Analysis** - Species weight and size distributions
 - **Correlation Heatmaps** - Feature relationship analysis
 
 ## 🔬 Methodology
@@ -128,7 +125,6 @@ The notebook includes comprehensive visualizations:
 - Accuracy score
 - Classification report (Precision, Recall, F1-score)
 - Confusion matrix analysis
-- Feature importance rankings
 
 ## 📂 Project Structure
 
