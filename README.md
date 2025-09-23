@@ -25,11 +25,6 @@ The project uses a comprehensive [crocodile dataset](https://www.kaggle.com/data
   - Age Class (Hatchling, Juvenile, Subadult, Adult)
   - Sex (Male, Female, Unknown)
 
-- **Taxonomic Information:**
-  - Scientific Name
-  - Family
-  - Genus
-
 - **Geographic & Environmental:**
   - Country/Region
   - Habitat Type (Rivers, Swamps, Mangroves, etc.)
@@ -99,10 +94,25 @@ The Random Forest classifier is configured with:
 ## 📊 Visualizations
 
 The notebook includes comprehensive visualizations:
+### Initial Data Exploration
+<img width="528" height="332" alt="image" src="https://github.com/user-attachments/assets/724bfbf0-bd8d-4ddb-bdef-d0e7d5b95009" />
 
-- **Confusion Matrix** - Classification performance heatmap
-- **Correlation Heatmaps** - Feature relationship analysis
+### Confusion Matrix - Classification Performance
+<img width="1044" height="1045" alt="image" src="https://github.com/user-attachments/assets/aa122b16-cbb9-42ef-8b61-7820f8da6c7c" />
 
+
+### Model Confusion Analysis
+My model frequently confuses the following species: 
+- New Guinea vs. Hall's New Guinea
+- Nile vs Mugger (Marsh)
+I wanted to take a deeper look into this confusion, so I made a function to compare two types of crocodile using various matplotlib graphs. Here is an example of the New Guinea vs. Hall's New Guinea Comparison: 
+<img width="1721" height="1142" alt="image" src="https://github.com/user-attachments/assets/7d8b752d-a378-4a28-962d-f09e6ed1d3a3" />
+
+It is eviden that Weight and Length are very similar between these species, likely contributing to the confusion. In my feature importance analysis, I also uncovered that Weight and Length were the most influential features for the models predictions:
+<img width="1142" height="961" alt="image" src="https://github.com/user-attachments/assets/1b407a7b-9849-4e9d-a719-30bb42a15985" />
+Based on this insight, I plan to do the followwing:
+- Model Fine Tuning: Adjusting hyperparameters to reduce misclassifcation
+- Look to Alternative Models: I would like to combine random forest with other classifiers to better seperate mistaken species.
 ## 🔬 Methodology
 
 ### 1. Data Preprocessing
@@ -156,6 +166,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Ryan Woodzell**
 - GitHub: [@RyanWoodzell](https://github.com/RyanWoodzell)
 
-## 🙏 Acknowledgments
 
 
